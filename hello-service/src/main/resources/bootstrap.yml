@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: hello-service
+      uri: http://localhost:10000
+      profile: default
+      label: master
