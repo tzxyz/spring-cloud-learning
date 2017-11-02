@@ -16,3 +16,6 @@ public synchronized byte[] binary(@PathVariable String name,
 
 配置(本地文件)
 `org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository`
+
+# Config Client
+`ConfigServicePropertySourceLocator` 该类实现下载配置文件
