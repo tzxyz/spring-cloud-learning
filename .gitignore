@@ -1,5 +1,3 @@
 .idea
 *.iml
-
-circuit-breaker/target
-circuit-breaker/circuit-breaker.iml
+*/target
