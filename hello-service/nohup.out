@@ -1,0 +1,41 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building hello-service 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:1.5.8.RELEASE:run (default-cli) > test-compile @ hello-service >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hello-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ hello-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /Users/zhuotianzhu/Codes/spring-cloud-learing/hello-service/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hello-service ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/zhuotianzhu/Codes/spring-cloud-learing/hello-service/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ hello-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/zhuotianzhu/Codes/spring-cloud-learing/hello-service/target/test-classes
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:1.5.8.RELEASE:run (default-cli) < test-compile @ hello-service <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:1.5.8.RELEASE:run (default-cli) @ hello-service ---
+[INFO] Attaching agents: []
+13:49:11.206 [main] DEBUG org.springframework.boot.devtools.settings.DevToolsSettings - Included patterns for restart : []
+13:49:11.208 [main] DEBUG org.springframework.boot.devtools.settings.DevToolsSettings - Excluded patterns for restart : [/spring-boot-starter/target/classes/, /spring-boot-autoconfigure/target/classes/, /spring-boot-starter-[\w-]+/, /spring-boot/target/classes/, /spring-boot-actuator/target/classes/, /spring-boot-devtools/target/classes/]
+13:49:11.209 [main] DEBUG org.springframework.boot.devtools.restart.ChangeableUrls - Matching URLs for reloading : [file:/Users/zhuotianzhu/Codes/spring-cloud-learing/hello-service/target/classes/]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.494 s
+[INFO] Finished at: 2017-11-03T13:49:11+08:00
+[INFO] Final Memory: 44M/282M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...

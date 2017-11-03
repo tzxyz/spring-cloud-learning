@@ -1,8 +1,16 @@
+spring:
+  application:
+    name: "hello-service-1"
+
 hello:
   message: "Hello Prod1 Message!"
 
 server:
   port: 5001
+
+management:
+  security:
+    enabled: false
 
 eureka:
   client:
